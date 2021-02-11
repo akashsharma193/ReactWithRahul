@@ -4,7 +4,7 @@ import About from './component/About.js'
 import Service from './component/Service.js'
 import Home from './component/Home.js'
 import Footer from './component/Footer.js'
-import Login from './component/login.js'
+import Login from './component/Login.js'
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import { BrowserRouter, Route } from 'react-router-dom';
 class App extends React.Component {
