@@ -2,24 +2,24 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 
 const Header = () => (
-    <nav class="navbar navbar-expand-sm bg-light">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <Link class="nav-link" to="home">Home</Link>
+    <nav className="navbar navbar-expand-sm bg-light">
+        <ul className="navbar-nav">
+            <li className="nav-item">
+                <Link className="nav-link" to="home">Home</Link>
             </li>
-            <li class="nav-item">
-                <Link class="nav-link" to="about">About</Link>
+            <li className="nav-item">
+                <Link className="nav-link" to="about">About</Link>
             </li>
-            <li class="nav-item">
-                <Link class="nav-link" to="service">Service</Link>
+            <li className="nav-item">
+                <Link className="nav-link" to="service">Service</Link>
             </li>
         </ul>
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <Link class="nav-link" to="login">Login</Link>
+        <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
+                <Link className="nav-link" to="login">Login</Link>
             </li>
-            <li class="nav-item">
-                <Link class="nav-link" to="register">Register</Link>
+            <li className="nav-item">
+                <Link className="nav-link" to="register">Register</Link>
             </li>
         </ul>
     </nav >

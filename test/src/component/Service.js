@@ -8,7 +8,13 @@ class Service extends React.Component {
         }
     }
     componentDidMount() {
-        fetch('http://localhost:8080/home').then((resp) => {
+        debugger
+        const requestOptions = {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ name: 'admin', password: 'password' })
+        };
+        fetch('http://localhost:8080/home', requestOptions).then((resp) => {
             resp.json().then((result) => {
                 console.warn(result)
             })
