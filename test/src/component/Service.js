@@ -1,6 +1,10 @@
 import React from 'react'
 
-const Service = () => (
-    <h2>Hello Service</h2>
-)
+class Service extends React.Component {
+    render() {
+        return (
+            <h2>Hello Service</h2>
+        )
+    }
+}
 export default Service

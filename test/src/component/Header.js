@@ -14,7 +14,15 @@ const Header = () => (
                 <Link class="nav-link" to="service">Service</Link>
             </li>
         </ul>
-    </nav>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <Link class="nav-link" to="login">Login</Link>
+            </li>
+            <li class="nav-item">
+                <Link class="nav-link" to="register">Register</Link>
+            </li>
+        </ul>
+    </nav >
 )
 
 
